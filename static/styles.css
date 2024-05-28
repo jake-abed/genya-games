@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	@font-face {
+		font-family: 'VT323';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: asset('/VT323.ttf') format('ttf');
+	}
+}
+
 .gradient-bg {
 	background-image: linear-gradient(
 	  270deg,

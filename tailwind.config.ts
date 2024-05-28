@@ -8,7 +8,10 @@ export default {
     extend: {
       colors: {
         "genyablack": "#1f1f1f",
-        "genrared": "#FF2A2A",
+        "genyared": "#FF2A2A",
+      },
+      fontFamily: {
+        "sans": ["VT323"],
       },
     },
   },
