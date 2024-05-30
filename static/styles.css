@@ -20,3 +20,8 @@
 	  hsl(0deg 100% 58%) 100%
 	);
 }
+
+canvas {
+	display: block;
+	margin: auto;
+}
