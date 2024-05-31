@@ -1,5 +1,3 @@
-import { render } from "$fresh/src/server/render.ts";
-import { renderOuterDocument } from "$fresh/src/server/rendering/template.tsx";
 import { asset } from "$fresh/runtime.ts";
 import * as THREE from "npm:three@0.164.1";
 import { useEffect } from "preact/hooks";
@@ -10,7 +8,9 @@ export default function LeCube() {
     const loader = new THREE.TextureLoader();
 
     const materials = [
-      new THREE.MeshBasicMaterial({ map: loader.load(asset("/stfl.webp")) }),
+      new THREE.MeshBasicMaterial({
+        map: loader.load(asset("/stfl.webp")),
+      }),
       new THREE.MeshBasicMaterial({ map: loader.load(asset("/stfl.webp")) }),
       new THREE.MeshBasicMaterial({
         map: loader.load(asset("/koku-ava.webp")),
@@ -43,7 +43,6 @@ export default function LeCube() {
 
     const cubeLength = 1;
     const geometry = new THREE.BoxGeometry(cubeLength, cubeLength, cubeLength);
-    const material = new THREE.MeshBasicMaterial({ color: 0xFF2A2A });
     const cube = new THREE.Mesh(geometry, materials);
     scene.add(cube);
 

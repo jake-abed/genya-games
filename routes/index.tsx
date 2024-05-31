@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <section class="content">
         <h1 class="p-2 text-center font-sans text-genyared text-4xl">
-          GENYA GAMES FULL SITE COMING SOON
+          Genya Games Full Site Coming Soon!
         </h1>
         <LeCube />
       </section>

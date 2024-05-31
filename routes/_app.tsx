@@ -1,6 +1,8 @@
 import { type PageProps } from "$fresh/server.ts";
 import { asset } from "$fresh/runtime.ts";
 import BottomBar from "../components/BottomBar.tsx";
+import Background from "../components/Background.tsx";
+
 export default function App({ Component }: PageProps) {
   return (
     <html>
@@ -22,6 +24,7 @@ export default function App({ Component }: PageProps) {
         />
       </head>
       <body class="bg-genyablack">
+        <Background />
         <Component />
         <BottomBar />
       </body>
