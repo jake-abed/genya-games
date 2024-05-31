@@ -1,7 +1,7 @@
 export default function Background() {
   return (
     <div class="absolute w-[100dvw] h-[100svh]">
-      <div class="absolute gradient-bg h-1/3 w-1/3 opacity-15 blur-3xl inset-1/3 rounded-full">
+      <div class="absolute gradient-bg h-1/3 md:h-1/2 w-1/3 opacity-25 blur-3xl top-1/4 inset-x-1/3 rounded-full">
       </div>
       <svg width="100%" height="100%">
         <defs>
@@ -13,7 +13,7 @@ export default function Background() {
             height="25"
             patternUnits="userSpaceOnUse"
           >
-            <circle fill="#5544441F" cx="5" cy="5" r="2.5" />
+            <circle fill="#6944592F" cx="5" cy="5" r="2" />
           </pattern>
         </defs>
 

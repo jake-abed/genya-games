@@ -7,7 +7,7 @@ export default function BottomBar() {
       <div class="gradient-bg h-2 w-[100dvw]"></div>
       <div class="h-[100px] flex gap-3 justify-center items-center">
         <p class="text-white text-xl">GENYA GAMES™ 2024</p>
-        <a href="https://genya-games.itch.io/">
+        <a href="https://genya-games.itch.io/" target="_blank">
           <img
             src={asset("/itch.svg")}
             alt="itch.io Logo"
@@ -15,7 +15,31 @@ export default function BottomBar() {
             height="24"
           />
         </a>
-        <a href="https://x.com/GenyaGames">
+        <a href="https://www.youtube.com/@Genya-Games" target="_blank">
+          <img
+            src={asset("/youtube.svg")}
+            alt="Youtube Logo"
+            width="24"
+            height="24"
+          />
+        </a>
+        <a href="https://www.twitch.tv/genyagames" target="_blank">
+          <img
+            src={asset("/twitch.svg")}
+            alt="Twitch Logo"
+            width="24"
+            height="24"
+          />
+        </a>
+        <a href="https://ko-fi.com/genyagames" target="_blank">
+          <img
+            src={asset("/kofi.svg")}
+            alt="Twitch Logo"
+            width="24"
+            height="24"
+          />
+        </a>
+        <a href="https://x.com/GenyaGames" target="_blank">
           <img
             src={asset("/twitter.svg")}
             alt="Twitter Logo"
