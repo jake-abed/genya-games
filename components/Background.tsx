@@ -1,7 +1,7 @@
 export default function Background() {
   return (
     <div class="absolute w-[100dvw] h-[100svh]">
-      <div class="absolute gradient-bg h-1/3 md:h-1/2 w-1/3 opacity-25 blur-3xl top-1/4 inset-x-1/3 rounded-full">
+      <div class="absolute gradient-bg h-[40svh] md:h-1/2 w-[40svw] opacity-25 blur-3xl inset-x-1/3 inset-y-[30svh] rounded-full">
       </div>
       <svg width="100%" height="100%">
         <defs>

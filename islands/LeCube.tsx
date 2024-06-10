@@ -65,7 +65,7 @@ export default function LeCube() {
   return (
     <div
       id="le-cube"
-      class="absolute -z-10 top-40 md:top-0 w-[100dvw] h-[200px]"
+      class="absolute -z-10 top-[25svh] md:top-4 w-[100dvw] h-[200px]"
     >
     </div>
   );
